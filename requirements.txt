@@ -1,0 +1,12 @@
+# Python 3.10 is recommended.
+#
+# The default mock example uses only the Python standard library. These packages
+# are needed for running DGT with real LLMs or for hosting a local vLLM server.
+
+openai>=1.0.0
+tqdm>=4.65.0
+
+# Local model serving and inference. Install a CUDA-compatible PyTorch build for
+# your system before installing vLLM if needed.
+torch>=2.0.0
+vllm>=0.4.3
